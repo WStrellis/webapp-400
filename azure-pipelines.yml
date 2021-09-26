@@ -21,6 +21,6 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    npm run test
-  displayName: "CI=true npm test"
+    CI=true npm run test
+  displayName: " npm test"
 
