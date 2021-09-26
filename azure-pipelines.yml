@@ -17,10 +17,10 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    CI=true npm run build
   displayName: 'npm install and build'
 
 - script: |
     npm run test
-  displayName: "npm test"
+  displayName: "CI=true npm test"
 
