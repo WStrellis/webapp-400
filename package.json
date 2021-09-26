@@ -37,8 +37,5 @@
   },
   "jest":{
     "testResultsProcessor": "./node_modules/jest-junit-reporter"
-  },
-  "devDependencies": {
-    "jest-junit-reporter": "^1.1.0"
   }
 }
