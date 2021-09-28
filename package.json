@@ -34,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "jest":{
-    "testResultsProcessor": "./node_modules/jest-junit-reporter"
   }
 }
