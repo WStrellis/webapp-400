@@ -45,6 +45,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+      
+      - name: ls 
         run: 
           - ls
 
